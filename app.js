@@ -1,10 +1,6 @@
 let screen = document.getElementById('screen')
-// screen.addEventListener("keyup", function () {
-
-// })
 let buttons = document.querySelectorAll('.buttonBox button')
 let string = "";
-
 Array.from(buttons).forEach((button) => {
     button.addEventListener('click', function (e) {
         if (e.target.innerHTML === '=') {
@@ -19,5 +15,3 @@ Array.from(buttons).forEach((button) => {
         }
     });
 });
-
-
